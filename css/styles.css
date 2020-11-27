@@ -1,0 +1,144 @@
+
+@font-face {
+    font-family: Poppins;
+    src: url(./../fonts/Poppins-Regular.ttf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: Poppins;
+    src: url(./../fonts/Poppins-Medium.ttf);
+    font-weight: bold;
+}
+
+. {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins sans-serif;
+}
+body {
+    margin: 0px;
+}
+
+.primary-block {
+    background-color: #0475BA;
+    color: white;
+}
+.primary-block a:link,  .primary-block  a:visited{
+    color: white;
+    text-decoration: none;
+}
+.primary-block  a:hover {
+    color: orange;
+}
+.secondary-block h2, .secondary-block h3 {
+    color: #0475BA;   
+}
+nav {
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;padding: 0px 32px;
+}
+header, section, footer {
+    padding: 40px;
+}
+ul {
+    list-style: none;
+}
+
+/*style de header */
+header {
+    text-align: center;
+}
+header h2 {
+    padding: 16px;
+}
+header img {
+    border-radius: 50%;
+    width: 150px;
+    height: auto;
+}
+
+/*style des sections*/
+section h3 {
+    text-align: center;
+}
+
+
+/* formation-list */
+.formation-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+/** list style */
+.list-square {
+    list-style: square;
+}
+
+/* link styles */
+a {
+    
+}
+
+/* icon social */
+i {
+    margin-right: 8px;
+}
+
+#menu {
+    display: none;
+}
+
+@media(min-width: 768px) {
+    #menu {
+        display: block;
+    }
+    #menu ul{
+     display: flex;
+    }
+    #menu ul li {
+        margin: 0px 8px;
+    }
+    h1 {
+        margin: 10px;
+    }
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 20px;
+    }
+    header .header-discription {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-right: 10px;
+    }
+    header .header-discription h1 {
+        align-items: baseline;
+    }
+    header .header-discription h2 {
+        align-items: baseline;
+        padding: 10px;
+        margin: 5px;
+    }
+    header .header-img{
+        padding: 10px;
+        align-items: center;
+    }
+    header img {
+        width: 150px;
+        height: 150px;
+        
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        width: 50%;
+    }
+    .footer-inside {
+        width: 50%;
+    }
+}
