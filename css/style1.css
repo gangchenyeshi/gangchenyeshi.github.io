@@ -1,0 +1,92 @@
+.box1 {
+    background-color: Green;
+    min-height:200px;
+}
+
+.box2 {
+    background-color: orange;
+    min-height:200px;
+}
+
+.box3 {
+    background-color: blue;
+    min-height:200px;
+}
+
+.box4 {
+    background-color: yellow;
+    min-height:200px;
+}
+.box5 {
+    background-color: rgb(0, 128, 100);
+    min-height:200px;
+}
+
+.box6 {
+    background-color: rgb(127, 41, 167);
+    min-height:200px;
+}
+
+.box7 {
+    background-color: rgb(218, 124, 81);
+    min-height:200px;
+}
+
+.box8 {
+    background-color: rgb(0, 0, 0);
+    min-height:200px;
+}
+.box9 {
+    background-color: rgb(116, 151, 116);
+    min-height:200px;
+}
+
+.box10 {
+    background-color: rgb(0, 195, 255);
+    min-height:200px;
+}
+
+@media(min-width:960px) {
+    .box10 {
+        order: 1;
+        background-color: rgb(0, 195, 255);
+    }
+    .box1 {
+        order: 2;
+        background-color: rgb(161, 185, 192);
+    }
+    .box3 {
+        order: 3;
+        background-color: rgb(0, 195, 255);
+    }
+    .box5 {
+        order: 4;
+        background-color: rgb(161, 185, 192);
+    }
+    .box4 {
+        order: 5;
+        background-color: rgb(0, 195, 255);
+    }
+    .box6 {
+        order: 6;
+        background-color: rgb(161, 185, 192);
+    }
+    .box8 {
+        order: 7;
+        background-color: rgb(0, 195, 255);
+    }
+    .box7 {
+        order: 8;
+        background-color: rgb(161, 185, 192);
+    }
+    .box9 {
+        order: 9;
+        background-color: rgb(0, 195, 255);
+    }
+    .box2 {
+        order: 10;
+        background-color: rgb(161, 185, 192);
+    }
+}
+
+

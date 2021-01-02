@@ -1,0 +1,267 @@
+
+.header {
+    background-position: center;
+}
+a {
+    color: white;
+}
+.text-logo {
+    color: #ffffff;
+    font-family: Courgette;
+    font-size: 24px;
+}
+.text-logo:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+.navbackground {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid white;   
+}
+.navbackground a{
+    
+}
+
+.languageFr {
+    text-align: center;
+    background-image: url("../img/english.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 30px;
+    width: 100%;
+
+}
+.languageEn {
+    text-align: center;
+    background-image: url("../img/english.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 30px;
+    width: 100%;
+
+}
+.languageFr a{
+    color: black;
+    font-size: large;
+    font-weight: bold;
+}
+.languageFr a:hover{
+    color: blue;
+}
+.jambotronbackground {
+    background-color: #005873;
+    min-height: 300px;
+    margin-bottom: 0px;
+}
+.logo-img {
+    width: 150px;
+    border-radius: 10%;
+}
+.jumbotron-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-align: center;
+    font-family: Courgette ;
+}
+.jumbotron-flex h4 {
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    
+    text-transform: uppercase;
+}
+
+h4{
+    font-size: 22px;
+    font-weight: bold;
+}
+h5{
+    font-size: 16px;
+    font-weight: bold;
+}
+.about {
+    background-color: #c0d0d4;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 2px;
+}
+.info {
+    background-color: #c0d0d4;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.experience-sub {
+    background-color: #0d4252;
+    padding: 15px 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.first-row {
+    padding: 0px;
+    margin: 0;
+
+}
+p, li, table, {
+    font-size: 16px;
+}
+span {
+    color: rgb(236, 240, 9);
+    font-weight: normal;
+}
+
+.skills img{
+    max-width: 50%;
+    height: auto;
+    margin: 20px;
+}
+h4 {
+    text-align: center;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+.info table tr td {
+    padding-right: 20px;
+}
+.info-person, .degree, .softskill, .skills {
+    color: #005873;
+    background-color: #ffffff;
+    margin-top: 0px;
+    padding: 50px 20px;
+}
+
+.qualities, .experience, .project, .language{
+    background-color: #005873;
+    color: #ffffff;
+    
+    padding:50px 30px ;
+}
+
+.cardh5 {
+    background-color: #acbbbe;
+    min-height: 70px;
+}
+.cardbody {
+    background-color: #eef4f5;
+    min-height: 120px;
+}
+
+.cardbody h6 {
+    color: rgb(255, 123, 0);
+}
+
+.cardRow  {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+.cardBox {
+    border: 1px solid rgb(172, 163, 163);
+}
+.underscore {
+    width: 100px;
+    height: 2px;
+    background-color: #005873;
+    margin: 0 auto;
+}
+.underscorewhite {
+    width: 100px;
+    height: 2px;
+    background-color: #fafafa;
+    margin: 0 auto;
+}
+.head5 {
+    margin: 30px auto;
+}
+.container-bar {
+    width: 100%;
+    background-color: #ddd;
+}
+.language-bar {
+    text-align: Right;
+    padding: 10px auto;
+    color: #851212
+}
+.french {
+    width: 50%;
+    background-color: #851212
+}
+.english {
+    width: 70%;
+    background-color: #851212
+}
+.tibetan {
+    width: 95%;
+    background-color: #851212
+}
+.bar {
+    border-radius: 3px;
+    border: 1px Solid black;
+    padding:10px;
+    background-color: rgb(72, 132, 134);
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+footer {
+    background-color: #212529;
+    border-top: 1px solid white;   
+    color: #ffffff;
+    padding: 30px;
+}
+footer h4 {
+    text-align: left;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+footer ul li {
+    list-style:none;
+    
+}
+footer ul {
+    padding: 10px;
+}
+
+.contact-flex {
+    display: flex;
+    
+    justify-content: left;
+    align-items: center;
+}
+.contact-flex i {
+    min-width: 30px;
+}
+.contact-flex span {
+    color: #fff;
+}
+.contact-flex a:hover {
+    
+}
+@media(min-width:768px) {
+
+}
+@media(min-width:992px) {
+    .jumbotron-flex {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .about, .info{
+        min-height: 240px;
+    }
+    .experience-sub {
+        min-height: 240px;
+    }
+    .mainBar {
+        justify-content: center;
+    }
+
+}
