@@ -21,31 +21,23 @@ a {
 .navbackground a{
     
 }
+.languageFr, .languageEn {
+    margin-left: 10px;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 30px;
+    width: 100%;
+}
 
 .languageFr {
-    text-align: center;
     background-image: url("../img/english.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 30px;
-    width: 100%;
-
+    
 }
 .languageEn {
-    text-align: center;
-    background-image: url("../img/english.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 30px;
-    width: 100%;
-
-}
-.languageFr a{
-    color: black;
-    font-size: large;
-    font-weight: bold;
+    background-image: url("../img/french.png");
+    
 }
 .languageFr a:hover{
     color: blue;
